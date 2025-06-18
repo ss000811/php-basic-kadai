@@ -54,6 +54,10 @@
       print_r($food);
       echo '<br>';
       print_r($animal);
+      echo '<br>';
+      echo $food->getPrice();
+      echo '<br>';
+      echo $animal->getHeight();
       ?>
     </p>
   </body>
